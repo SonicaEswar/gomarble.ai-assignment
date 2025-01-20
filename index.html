@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Embedded Video</title>
+  <style>
+    /* Style for video container */
+    .video-container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+      text-align: center;
+    }
+
+    /* Style for the video element */
+    .builder-video {
+      width: 100%;
+      height: auto;
+      border: 2px solid #ccc;
+      border-radius: 10px;
+    }
+
+    /* Additional styling */
+    .video-caption {
+      font-size: 16px;
+      color: #555;
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+  <div class="video-container">
+    <video
+      poster="https://cdn.builder.io/api/v1/image/assets%2F5456651f1d534c27b7c97891b8dd5c43%2Fb1297886e3ea4a8fb5af50e6a2c6e7c0"
+      class="builder-video"
+      playsinline="playsinline"
+      controls
+      title="Demo Video"
+    >
+      <source
+        type="video/mp4"
+        src="https://cdn.builder.io/o/assets%2F5456651f1d534c27b7c97891b8dd5c43%2Fb643b8e838db45e282d0ebf63061fd52%2Fcompressed?apiKey=5456651f1d534c27b7c97891b8dd5c43&token=b643b8e838db45e282d0ebf63061fd52&alt=media&optimized=true"
+      >
+      Your browser does not support the video tag.
+    </video>
+    <div class="video-caption">Demo Video: Essentials Nutrition Shake</div>
+  </div>
+</body>
+</html>
